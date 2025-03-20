@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(161, 252, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items : center;
+    height: 8vh;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.logo {
+    color: green;
+}
+
+.hero {
+    background-color: cornflowerblue;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.tauri {
+    font-family: "Tauri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .saira-stencil {
+    font-family: "Saira Stencil One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .benvenuto {
+    font-family: saira-stencil;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+  }
+
+  #menu  {
+    /* all'inizio non si vede */
+    display: none;
+  }
+
+  footer {
+    height: 13vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .logoScuola {
+    height: 13vh;
+
+  }
+
+  .imglogo {
+    height: 80%;
+  }
+
+  .info > a {
+    text-decoration: none;
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 8px;
+    border-radius: 10px;
+}
