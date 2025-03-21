@@ -86,4 +86,17 @@ header {
     color: white;
     padding: 10px 8px;
     border-radius: 10px;
+} 
+
+span {
+  font-family: "Roboto", sans-serif;
+
+}
+
+footer > div {
+  /* specifico la larghezza dei tre div nel footer e li metto in mezzo */
+
+  width: 33.33333%;
+  display: flex;
+  justify-content: center;
 }
