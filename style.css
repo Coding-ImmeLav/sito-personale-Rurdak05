@@ -95,8 +95,49 @@ span {
 
 footer > div {
   /* specifico la larghezza dei tre div nel footer e li metto in mezzo */
-
   width: 33.33333%;
   display: flex;
   justify-content: center;
+}
+
+.inizio {
+  height: 80vh; 
+  display: flex;
+  /* se non ci stai vai a capo */
+  flex-wrap: wrap;
+  justify-content: center; /* centro i rettangoli nella pagina */
+  align-items: center;  
+}
+
+.contenitore {
+  width: 40%;
+  background-color: rgb(0, 94, 152);
+  height: 35%;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+/* animazione quando passo con il mouse sui contenitori */
+.contenitore:hover {
+  background-color: violet;
+  transition: 0.3s; 
+}
+
+.CV {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+/* personalizzo il riquadro del curriculum  */
+.curriculum {
+  width: 70%;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.intestaione {
+  text-align: center;
 }
