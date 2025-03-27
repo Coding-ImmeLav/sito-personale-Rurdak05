@@ -1,3 +1,9 @@
+html {
+  /* propità che scrolla il sito  */
+  scroll-behavior: smooth;
+}
+
+
 body {
     margin: 0;
 }
@@ -62,6 +68,15 @@ header {
   #menu  {
     /* all'inizio non si vede */
     display: none;
+  }
+
+  .menu {
+    cursor: pointer;
+  }
+
+  .menu-lista > ul > li {
+    text-align: center;
+  
   }
 
   footer {
@@ -129,15 +144,49 @@ footer > div {
   display: flex;
   justify-content: center;
   align-items:center;
+  flex-direction: column;
 }
 
 /* personalizzo il riquadro del curriculum  */
 .curriculum {
-  width: 70%;
+  width: 65%;
   border: 1px solid black;
   padding: 20px;
 }
 
 .intestaione {
   text-align: center;
+}
+
+.fascia-download {
+  background-color:  lightseagreen;
+  width: 100%;
+  height: 10vh;
+  margin-top: 3vh;
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+}
+
+.bottone {
+  background-color: white;
+  color: lightseagreen;
+  font-family: "tauri";
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bottone:hover  {
+  background-color: lightseagreen;
+  color: white;
+  border: 1px solid white;
+}
+
+.bonus {
+  height: 50vh;
+
 }
