@@ -190,3 +190,35 @@ a {
   height: 50vh;
 
 }
+
+.testo {
+  text-align: center;
+  width: 60%; /* larghezza del div */
+}
+
+.intro-stage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.relazione-terza {
+  display: flex;
+  background-color: lightsteelblue;
+}
+
+.sx, .dx {
+  width: 50%;
+  padding: 5%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.immagine {
+  width: 80%;
+  padding: 3%;
+}
