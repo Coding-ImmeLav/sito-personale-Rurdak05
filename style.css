@@ -84,6 +84,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color:blanchedalmond;
   }
 
   .logoScuola {
@@ -284,3 +285,6 @@ a {
 }
 
 
+.testoUno {
+  font-size: larger;
+}
