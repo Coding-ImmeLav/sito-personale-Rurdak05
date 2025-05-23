@@ -288,3 +288,10 @@ a {
 .testoUno {
   font-size: larger;
 }
+
+.bonus{
+  background-image: url(./img/strada\ della\ vita.jpg);
+  height: 200vh;
+  margin-bottom: 30px;
+}
+
