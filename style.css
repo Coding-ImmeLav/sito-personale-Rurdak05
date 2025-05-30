@@ -301,7 +301,9 @@ a {
   font-size: larger;
 }
 
-
+.bonus {
+  height: 80vh;
+}
 
 .bonusUno {
   display: flex;
