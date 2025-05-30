@@ -123,6 +123,7 @@ footer > div {
   flex-wrap: wrap;
   justify-content: center; /* centro i rettangoli nella pagina */
   align-items: center;  
+  color: transparent;
 }
 
 .contenitoreuno {
@@ -132,7 +133,8 @@ footer > div {
   margin: 30px;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;   
+  color: transparent;
 }
 
 .contenitoredue {
@@ -142,7 +144,8 @@ footer > div {
   margin: 30px;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;   
+  color: transparent;
 }
 
 .contenitoretre {
@@ -153,6 +156,8 @@ footer > div {
   display: flex;
   justify-content: center;
   align-items: center;  
+  color: transparent;
+
 }
 
 .contenitore {
@@ -163,6 +168,7 @@ footer > div {
   display: flex;
   justify-content: center;
   align-items: center;  
+  color: transparent;
 }
 
 /* animazione quando passo con il mouse sui contenitori */
@@ -170,21 +176,25 @@ footer > div {
   background-image: none;
   background-color: violet;
   transition: 0.3s; 
+  color: black;
 }
 .contenitoredue:hover {
   background-image: none;
   background-color: violet;
-  transition: 0.3s; 
+  transition: 0.3s;
+  color: black; 
 }
 .contenitoretre:hover {
   background-image: none;
   background-color: violet;
-  transition: 0.3s; 
+  transition: 0.3s;
+  color: black; 
 }
 .contenitore:hover {
   background-image: none;
   background-color: violet;
   transition: 0.3s; 
+  color: black;
 }
 
 .CV {
