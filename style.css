@@ -85,6 +85,8 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color:blanchedalmond;
+    margin-top: 10vh;
+    padding-top: 5vh;
   }
 
   .logoScuola {
@@ -299,11 +301,7 @@ a {
   font-size: larger;
 }
 
-.bonus{
-  background-image: url(./img/strada\ della\ vita.jpg);
-  height: 220vh;
-  margin-bottom: 30px;
-}
+
 
 .bonusUno {
   display: flex;
@@ -311,6 +309,6 @@ a {
   text-align: center;
   justify-content: center;
   align-items: center;
-  font-size: large;
+  font-size: larger;
   background-color: beige;
 }
